@@ -1,0 +1,8 @@
+[
+    {
+        "name": "Test Organisation",
+        "uuid": "b71547e4-3c34-4d53-84e3-f31ff86bebba",
+        "dbname": "auth_test",
+        "subdomain": "test"
+    }
+]

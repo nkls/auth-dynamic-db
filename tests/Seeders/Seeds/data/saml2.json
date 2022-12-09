@@ -1,0 +1,28 @@
+[
+    {
+        "id": "1",
+        "key": "saml-key",
+        "uuid": "61a568e1-9f46-4ffa-8c23-4acd4c632117",
+        "idp_entity_id": "idp_entity_id",
+        "idp_login_url": "idp_login_url",
+        "idp_logout_url": "idp_logout_url",
+        "idp_x509_cert": "idp_x509_cert",
+        "metadata": {
+            "metadata": "metadata"
+        },
+        "name_id_format": "name_id_format"
+    },
+    {
+        "id": "2",
+        "key": "microsoft",
+        "uuid": "e09a42f9-d129-4b6b-8261-b287094ac3b0",
+        "idp_entity_id": "https://sts.windows.net/d6af699b-18f4-48ad-9698-198e4c9478bc/",
+        "idp_login_url": "https://login.microsoftonline.com/d6af699b-18f4-48ad-9698-198e4c9478bc/saml2",
+        "idp_logout_url": "https://login.microsoftonline.com/d6af699b-18f4-48ad-9698-198e4c9478bc/saml2",
+        "idp_x509_cert": "idp_x509_cert",
+        "metadata": {
+            "metadata": "metadata"
+        },
+        "name_id_format": "name_id_format"
+    }
+]

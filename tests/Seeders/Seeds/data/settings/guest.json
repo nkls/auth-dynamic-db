@@ -1,0 +1,8 @@
+[
+    {
+        "param": "guest",
+        "data": {
+            "hash_ttl":20
+        }
+    }
+]

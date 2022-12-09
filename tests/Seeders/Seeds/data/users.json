@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "uuid": "uuid-role-admin",
+        "role": "admin",
+        "name": "test",
+        "email": "test@example.com",
+        "password": "test"
+    },
+    {
+        "uuid": "uuid-role-user",
+        "name": "User",
+        "role": "user",
+        "email": "user@example.com"
+    },
+    {
+        "uuid": "uuid-role-guest",
+        "ref": "ref_test_client",
+        "name": "client",
+        "role": "guest",
+        "email": "client@example.com"
+    }
+]

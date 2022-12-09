@@ -1,0 +1,17 @@
+[
+    {
+        "user.uuid": "uuid-role-guest",
+        "hash": "hash-guest-active",
+        "expires": 1
+    },
+    {
+        "user.uuid": "uuid-role-guest",
+        "hash": "hash-guest-active-expired",
+        "expires": "2022-01-01"
+    },
+    {
+        "user.uuid": "uuid-role-user",
+        "hash": "hash-user-active",
+        "expires": 1
+    }
+]

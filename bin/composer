@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# Exit script if there is an error http://stackoverflow.com/a/1379904/3408
+set -e
+
+if [ ! -f $0.phar ]
+then
+   cd `dirname $0`
+   curl -sS https://getcomposer.org/installer | php
+   cd -
+fi
+php $0.phar "$@"
+
